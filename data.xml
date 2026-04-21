@@ -1,11 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<users>
-    <user>
-        <id>1</id>
-        <name>Jagat</name>
-    </user>
-    <user>
-        <id>2</id>
-        <name>Revi</name>
-    </user>
-</users>
+<projects>
+
+    <project>
+        <project_id>101</project_id>
+        <project_name>Green Valley Residency</project_name>
+
+        <created_at>2026-04-20T10:30:00</created_at>
+        <updated_at>2026-04-21T12:00:00</updated_at>
+
+        <developer_name>ABC Builders Pvt Ltd</developer_name>
+        <rating>4.5</rating>
+        <is_featured>true</is_featured>
+
+        <property_description>
+            A premium residential project with eco-friendly infrastructure and modern amenities.
+        </property_description>
+
+        <property_type>Residential</property_type>
+        <property_status>Under Construction</property_status>
+
+        <project_area>
+            <value>12.5</value>
+            <unit>Acres</unit>
+        </project_area>
+
+        <budget_range>
+            <min_price>7500000</min_price>
+            <max_price>12000000</max_price>
+        </budget_range>
+
+        <website>https://greenvalley.example.com</website>
+        <email_address>info@greenvalley.com</email_address>
+
+        <contact_details>
+            <phone>+91-9876543210</phone>
+            <alternate_phone>+91-9123456780</alternate_phone>
+        </contact_details>
+
+        <location>
+            <address>45, Lake View Road, Chennai</address>
+            <landmark>Opposite City Park</landmark>
+            <city>Chennai</city>
+            <state>Tamil Nadu</state>
+            <country>India</country>
+            <zip_code>600001</zip_code>
+            <latitude>13.0827</latitude>
+            <longitude>80.2707</longitude>
+        </location>
+
+        <media>
+            <video_url>https://youtube.com/sample1</video_url>
+            <brochure_url>/uploads/brochure1.pdf</brochure_url>
+        </media>
+
+        <amenities>
+            <general>Gym,Swimming Pool,Clubhouse</general>
+            <other>Hospital,Kids Area</other>
+        </amenities>
+
+        <legal>
+            <rera_number>TN/12345/2026</rera_number>
+            <approval_authority>CMDA</approval_authority>
+        </legal>
+
+        <project_phases>
+            <project_phase>
+                <phase_id>1</phase_id>
+                <phase_number>1</phase_number>
+
+                <launch_date>2026-01-01</launch_date>
+                <possession_date>2028-12-31</possession_date>
+
+                <parking>2</parking>
+                <manager_name>Rajesh Kumar</manager_name>
+
+                <contact>
+                    <phone>+91-9876543210</phone>
+                    <whatsapp>+91-9876543210</whatsapp>
+                </contact>
+
+                <units>120</units>
+                <rooms>3</rooms>
+
+                <size>
+                    <value>1450</value>
+                    <unit>Sq.ft</unit>
+                </size>
+
+                <price>
+                    <value>8500000</value>
+                    <currency>INR</currency>
+                </price>
+
+                <availability_status>Available</availability_status>
+            </project_phase>
+        </project_phases>
+
+        <project_images>
+            <image>
+                <url>/uploads/green1.jpg</url>
+                <is_cover>true</is_cover>
+                <sort_order>1</sort_order>
+            </image>
+            <image>
+                <url>/uploads/green2.jpg</url>
+                <is_cover>false</is_cover>
+                <sort_order>2</sort_order>
+            </image>
+        </project_images>
+
+        <tags>
+            <tag>Luxury</tag>
+            <tag>Eco-Friendly</tag>
+            <tag>Gated Community</tag>
+        </tags>
+
+    </project>
+
+</projects>
